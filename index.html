@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/85cca99f77.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./diseño.css">
+    <title>Carnita el Guero</title>
+</head>
+<body>
+
+        <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              myLandbot = new Landbot.Popup({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2074469-EWWK0KPCIZ5M562G/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+
+    <!-- Parte del nav  -->
+    <nav id="nav">
+        <div id="logo1">
+        <a href="./index.html"><img src="./media/logoori1.png" alt=""></a>
+        </div>
+        <ul>
+            <li><a href="./index2.html">Ménu     </a></li>
+            <li><a href="./index3.html">Nosotros </a></li>
+            <li><a href="./index4.html">Contacto </a></li>
+            <li><a href="./index6.html">Mapa    </a></li>
+        </ul>
+        <div id="logo2">
+        <a href="./index7.html"><img src="./media/carrito1.png" alt=""></a>
+        </div>
+    </nav>
+    <!-- Parte del video  -->
+    <div id="video"> <iframe width="1893" height="500" src="https://www.youtube.com/embed/kKh9Us2IwOk?si=NhX6kI8esHD0D09J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+    <!-- parte texto -->
+    <h2 id="guero">Carnitas el Güero</h2>
+    <h2 id="slogan">"Entre y Pídale Güero"</h2>
+    <p id="txtslogan">En Carnitas El Güero, estamos dedicados a ofrecerte una experiencia gastronómica única, donde la calidad y el sabor se fusionan para brindarte las mejores carnitas de la región. Desde 1993, hemos perfeccionado nuestras recetas familiares, creando platillos que deleitan los paladares más exigentes.
+    </p>
+    <!-- Carrusel de comentarios -->\
+    <div class="carrusel-container">
+        <h2>Nos recomiendan</h2>
+        <hr>
+        <input type="radio" name="slides" id="radio1" checked>
+        <input type="radio" name="slides" id="radio2">
+        <input type="radio" name="slides" id="radio3">
+        <ul class="slides">
+            <li class="slide">
+                <p>
+                    <q>Excelente comida, !muy buen servicio!</q>
+                    <span class="author">
+                        <img src=""> <!--falta agregar imagen-->
+                        Yael Caballero
+                    </span>
+                </p>
+            </li>
+            <li class="slide">
+                <p>
+                    <q>Muy buenos tacos de carnitas, 100% recomendado</q>
+                    <span class="author">
+                        <img src=""> <!--falta agregar imagen-->
+                        Oscar Martínez
+                    </span>
+                </p>
+            </li>
+            <li class="slide">
+                <p>
+                    <q>Me gusta mucho que sea una empresa familiar, ¡visitenlos!</q>
+                    <span class="author">
+                        <img src=""> <!--falta agregar imagen-->
+                        Amed Mondragón
+                    </span>
+                </p>
+            </li>
+        </ul>
+    
+        <div class="navigation">
+            <label for="radio1" id="radioSelect1"></label>
+            <label for="radio2" id="radioSelect2"></label>
+            <label for="radio3" id="radioSelect3"></label>
+        </div>
+    </div>
+    <!-- Ubicacion  -->
+    <div>
+        <h2 id="txtu"> Ubicación</h2>
+        <div class="mapainf">
+            <div id="ubitxt">
+                <p>¿Donde nos pueden encontrar se preguntaran? Bueno nos pueden encontrar dentro del Mercado San Joaquin Zona 22 Peralvillo, por la ubicación Debussy Loc. 52, Peralvillo, Cuauhtémoc, 06220 Ciudad de México, CDMX, para poder conocernos y consumir nuestros maravillosos tacos de carnitas entre otros platillos.
+                </p>
+            </div>
+            <div id="mapu">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.826508165401!2d-99.1399465!3d19.4630455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9ae43f3cc85%3A0xf24c48ef4b00ab22!2sCarnitas%20el%20G%C3%BCero!5e0!3m2!1ses-419!2smx!4v1703029442349!5m2!1ses-419!2smx" width="850" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+        </div>
+    </div>
+    <!-- footer  -->
+    <footer>
+        <div id="Txtinicial">
+            <h3 id="carnitas">Carnitas "El Guero"</h3>
+            <h3 id="derechos">Derechos</h3>
+        </div>
+
+        <div id="txtfinal">
+            <div id="datosc">
+                <h4>Datos del contacto</h4>
+                <ul id="redessociales">
+                    <li><a href="https://www.facebook.com/Yael.andrew2/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div id="qr">
+                <h4>QR IA</h4>
+                <img src="./media/qr2.jpg">
+            </div>
+            <div id="qr">
+                <h4>Horario</h4>
+                <p>L 9AM - 3PM</p>
+                <p>M 9AM - 3PM</p>
+                <p>X 9AM - 3PM</p>
+                <p>J 9AM - 3PM</p>
+                <p>V 9AM - 3PM</p>
+            </div>
+        </div>
+        <p>https://www.mediafire.com/folder/bs6waihj6a6pm/RAoing</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/85cca99f77.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./diseño.css">
+    <title>Carnita el Guero</title>
+</head>
+<body>
+
+        <script >
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              myLandbot = new Landbot.Popup({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2074469-EWWK0KPCIZ5M562G/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+
+        <!-- Parte del nav  -->
+        <nav id="nav">
+            <div id="logo1">
+            <a href="./index.html"><img src="./media/logoori1.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="./index2.html">Ménu     </a></li>
+                <li><a href="./index3.html">Nosotros </a></li>
+                <li><a href="./index4.html">Contacto </a></li>
+                <li><a href="./index6.html">Mapa    </a></li>
+            </ul>
+            <div id="logo2">
+                <a href="./index7.html"><img src="./media/carrito1.png" alt=""></a>
+            </div>
+        </nav>
+
+        <!-- fondo 1 -->
+        <div id="FotoBack3">
+        </div>
+        <div id="nu"><h2> Contacto  </h2></div>
+
+        <!-- logos  -->
+
+        <div id="datosc">
+            <ul id="redessocialess">
+                <li><a href="https://www.facebook.com/Yael.andrew2/" target="_blank"><img src="./media/face.png"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="./media/insta.png"></a></li>
+                <li><a href="https://zadarma.com/es/tariffs/numbers/mexico/mexico-city/" target="_blank"><img src="./media/cell.png"></a></li>
+                <li><a href="https://maps.app.goo.gl/4EqkY6htdGJaEgmM6" target="_blank"><img src="./media/google.png"></i></a></li>
+            </ul>
+        </div>
+
+        <div id="nu"><h3> Comentarios </h3></div>
+        <div id="coomtxt">
+            <p id="textcoom">
+                Si gusta aportar alguna opinión/comentario, acerca del lugar, ya sea positivo, una sugerencia, favor de insertarla en este banco de a continuación.
+            </p>
+        </div>
+        <section id="contactar">
+            <form action="#">
+                <div class="itemform">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+                </div>
+                <div class="itemform">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+                </div>
+                <div class="itemform">
+                    <label for="mensaje">Comentario</label>
+                    <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+                </div>
+                <div class="itemform">
+                    <input type="submit" name="boton" value="PUBLICAR">
+                </div>
+            </form>
+        </section>
+
+        <!-- parte del footer  -->
+        <footer>
+            <div id="Txtinicial">
+                <h3 id="carnitas">Carnitas "El Guero"</h3>
+                <h3 id="derechos">Derechos</h3>
+            </div>
+    
+            <div id="txtfinal">
+                <div id="datosc">
+                    <h4>Datos del contacto</h4>
+                    <ul id="redessociales">
+                        <li><a href="https://www.facebook.com/Yael.andrew2/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div id="qr">
+                    <h4>QR IA</h4>
+                    <img src="./media/qr2.jpg">
+                </div>
+                <div id="qr">
+                    <h4>Horario</h4>
+                    <p>L 9AM - 3PM</p>
+                    <p>M 9AM - 3PM</p>
+                    <p>X 9AM - 3PM</p>
+                    <p>J 9AM - 3PM</p>
+                    <p>V 9AM - 3PM</p>
+                </div>
+            </div>
+            <p>https://www.mediafire.com/folder/bs6waihj6a6pm/RAoing</p>
+        </footer>
+    
+</body>
+</html>
